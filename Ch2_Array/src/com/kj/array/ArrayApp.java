@@ -48,7 +48,7 @@ public class ArrayApp {
 
         int s2Key = 4;
 
-        for(j=0; j< nElem-1; j++){
+        for(j=0; j< nElem; j++){
             if(arr[j]==s2Key){
                 break;
             }
