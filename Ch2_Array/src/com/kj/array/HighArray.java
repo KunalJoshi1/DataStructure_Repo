@@ -82,6 +82,20 @@ public class HighArray {
         return maxVal;
     }
 
+    public long getMinVal(){
+
+        if(a.length == 0){
+            return -1;
+        }
+        long minVal = a[0];
+        for(j=0; j<nElem; j++){
+            if(a[j] < minVal){
+                minVal = a[j];
+            }
+        }
+        return minVal;
+    }
+
     public void removeMaxVal(){
        long k = getMaxVal();
         int i;

@@ -9,9 +9,9 @@ public class HighArrayApp {
         HighArray arr = new HighArray(maxSize);
 
 
-        arr.insert(100);
+        arr.insert(10);
         arr.insert(34);
-        arr.insert(64);
+        arr.insert(6);
         arr.insert(73);
         arr.insert(94);
         arr.insert(23);
@@ -36,10 +36,13 @@ public class HighArrayApp {
         arr.display();
 
         System.out.println("Max Value = " + arr.getMaxVal());
+        System.out.println("Min Value = " + arr.getMinVal());
 
         arr.removeMaxVal();
 
         arr.display();
+
+        HighArray arr2 = new HighArray(maxSize);
 
 
 
