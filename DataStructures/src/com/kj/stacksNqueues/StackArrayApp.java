@@ -17,7 +17,7 @@ public class StackArrayApp {
         theStack.push(11);
         theStack.push(45);
         theStack.push(65);
-        
+
 
        /* theStack.peek();
 
